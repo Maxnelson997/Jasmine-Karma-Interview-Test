@@ -1,0 +1,14 @@
+{
+  "name": "jobnimbus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Max <maxnelson997@gmail.com> (maxnelson.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.6.2"
+  }
+}
