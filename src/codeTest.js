@@ -27,7 +27,6 @@ function sumOfMultiples(first, second, below) {
     return sum;
 }
 
-
 module.exports = {
     checkForMatchingBrackets,
     sumOfMultiples
