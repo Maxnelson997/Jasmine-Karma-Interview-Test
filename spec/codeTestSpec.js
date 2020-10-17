@@ -8,10 +8,10 @@ describe("CodeTest", function() {
             expect(codeTest.checkForMatchingBrackets('')).toBeTrue();
         })
     })
-    xdescribe("SumOfMultiples", function() {
+    describe("SumOfMultiples", function() {
         it("should have a sum of 23 for multiples of 3 and 5 below 10", function() {
-            const BELOW_10 = 10
-            expect(codeTest.sumOfMultiples(3, 5, BELOW_10)).toEqual(23)
+            const END_RANGE = 10;
+            expect(codeTest.sumOfMultiples(3, 5, END_RANGE)).toEqual(23);
         })
     })
 })

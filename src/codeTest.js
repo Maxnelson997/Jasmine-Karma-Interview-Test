@@ -18,7 +18,13 @@ function checkForMatchingBrackets(strArg) {
 }
 
 function sumOfMultiples(first, second, below) {
-    return false;
+    let sum = 0;
+    for(let m = first; m < below; m++) {
+        if(m % first == 0 || m % second == 0) {
+            sum += m;
+        }
+    }
+    return sum;
 }
 
 
